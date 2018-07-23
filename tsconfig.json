@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "es2015",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "jsx": "react",
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": false
+  },
+  "include": ["src", "typings", "fuse.ts", "./storybook/views"],
+  "exclude": ["node_modules"]
+}
